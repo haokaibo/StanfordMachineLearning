@@ -24,8 +24,8 @@ for iter = 1:num_iters
     % Save the cost J in every iteration    
     J_history(iter) = computeCost(X, y, theta);
 
-    disp(sprintf('Iter: %d, theta(1): %0.10f, theta(2): %0.10f, J Fucntion Cost: %0.10f.',
-     iter, theta(1, 1), theta(2, 1), J_history(iter)));
+    sprintf('Iter: %d, theta(1): %0.10f, theta(2): %0.10f, J Fucntion Cost: %0.10f.',
+     iter, theta(1, 1), theta(2, 1), J_history(iter));
 
     if iter > 1 && J_history(iter) > J_history(iter-1) 
         theta = previous_theta;
