@@ -51,7 +51,7 @@ pause;
 
 %% ============ Part 2: Compute Cost and Gradient ============
 %  In this part of the exercise, you will implement the cost and gradient
-%  for logistic regression. You neeed to complete the code in 
+%  for logistic regression. You need to complete the code in 
 %  costFunction.m
 
 %  Setup the data matrix appropriately, and add ones for the intercept term
@@ -84,6 +84,7 @@ fprintf('Expected gradients (approx):\n 0.043\n 2.566\n 2.647\n');
 
 fprintf('\nProgram paused. Press enter to continue.\n');
 pause;
+
 
 
 %% ============= Part 3: Optimizing using fminunc  =============
